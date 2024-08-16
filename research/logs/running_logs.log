@@ -1,0 +1,30 @@
+[2024-08-16 14:18:48,970: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-16 14:18:48,972: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-16 14:18:48,973: INFO: common: created directory at: artifacts]
+[2024-08-16 14:18:48,975: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-16 14:21:13,145: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-16 14:21:13,148: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-16 14:21:13,149: INFO: common: created directory at: artifacts]
+[2024-08-16 14:21:13,151: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-16 14:22:10,758: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-16 14:22:10,762: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-16 14:22:10,763: INFO: common: created directory at: artifacts]
+[2024-08-16 14:22:10,764: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-16 14:26:06,448: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-16 14:26:06,451: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-16 14:26:06,453: INFO: common: created directory at: artifacts]
+[2024-08-16 14:26:06,455: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-16 14:26:18,049: INFO: 1434958058: artifacts/data_ingestion/samsum_dataset.zip download! with following info: 
+x-amz-id-2: 1Kt9/kPEpbDFseUccaDxD4UrZa9y54wRPLxveIiiy9FsJsn9qrUpR8df48B5Dh4pX1rHdAxpnhj8rNR8Zk33aIBu/hkljXiE
+x-amz-request-id: 15QKN6A0E2G7ZASR
+Date: Fri, 16 Aug 2024 08:56:08 GMT
+Last-Modified: Fri, 16 Aug 2024 07:08:49 GMT
+ETag: "fb743a0554c7163bef08b0fe6d71edf7"
+x-amz-server-side-encryption: AES256
+Accept-Ranges: bytes
+Content-Type: application/zip
+Server: AmazonS3
+Content-Length: 4028906
+Connection: close
+
+]
