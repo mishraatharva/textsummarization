@@ -1,30 +1,16 @@
-[2024-08-16 14:18:48,970: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-08-16 14:18:48,972: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-08-16 14:18:48,973: INFO: common: created directory at: artifacts]
-[2024-08-16 14:18:48,975: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-08-16 14:21:13,145: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-08-16 14:21:13,148: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-08-16 14:21:13,149: INFO: common: created directory at: artifacts]
-[2024-08-16 14:21:13,151: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-08-16 14:22:10,758: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-08-16 14:22:10,762: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-08-16 14:22:10,763: INFO: common: created directory at: artifacts]
-[2024-08-16 14:22:10,764: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-08-16 14:26:06,448: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-08-16 14:26:06,451: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-08-16 14:26:06,453: INFO: common: created directory at: artifacts]
-[2024-08-16 14:26:06,455: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-08-16 14:26:18,049: INFO: 1434958058: artifacts/data_ingestion/samsum_dataset.zip download! with following info: 
-x-amz-id-2: 1Kt9/kPEpbDFseUccaDxD4UrZa9y54wRPLxveIiiy9FsJsn9qrUpR8df48B5Dh4pX1rHdAxpnhj8rNR8Zk33aIBu/hkljXiE
-x-amz-request-id: 15QKN6A0E2G7ZASR
-Date: Fri, 16 Aug 2024 08:56:08 GMT
-Last-Modified: Fri, 16 Aug 2024 07:08:49 GMT
-ETag: "fb743a0554c7163bef08b0fe6d71edf7"
-x-amz-server-side-encryption: AES256
-Accept-Ranges: bytes
-Content-Type: application/zip
-Server: AmazonS3
-Content-Length: 4028906
-Connection: close
-
-]
+[2024-08-18 02:28:30,087: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-18 02:28:35,438: DEBUG: connectionpool: Starting new HTTPS connection (1): huggingface.co:443]
+[2024-08-18 02:28:35,734: DEBUG: connectionpool: https://huggingface.co:443 "HEAD /google/pegasus-cnn_dailymail/resolve/main/tokenizer_config.json HTTP/1.1" 200 0]
+[2024-08-18 02:28:36,382: DEBUG: connectionpool: Starting new HTTPS connection (1): s3.amazonaws.com:443]
+[2024-08-18 02:28:37,125: DEBUG: connectionpool: https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/csv/csv.py HTTP/1.1" 200 0]
+[2024-08-18 02:28:37,132: DEBUG: _api: Attempting to acquire lock 3014608980864 on C:\Users\Naruto\.cache\huggingface\datasets\_Users_Naruto_.cache_huggingface_datasets_csv_default-8a5b37d9a34ac794_0.0.0_9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52.lock]
+[2024-08-18 02:28:37,134: DEBUG: _api: Lock 3014608980864 acquired on C:\Users\Naruto\.cache\huggingface\datasets\_Users_Naruto_.cache_huggingface_datasets_csv_default-8a5b37d9a34ac794_0.0.0_9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52.lock]
+[2024-08-18 02:28:37,135: DEBUG: local: open file: C:/Users/Naruto/.cache/huggingface/datasets/csv/default-8a5b37d9a34ac794/0.0.0/9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52/dataset_info.json]
+[2024-08-18 02:28:37,136: DEBUG: _api: Attempting to release lock 3014608980864 on C:\Users\Naruto\.cache\huggingface\datasets\_Users_Naruto_.cache_huggingface_datasets_csv_default-8a5b37d9a34ac794_0.0.0_9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52.lock]
+[2024-08-18 02:28:37,137: DEBUG: _api: Lock 3014608980864 released on C:\Users\Naruto\.cache\huggingface\datasets\_Users_Naruto_.cache_huggingface_datasets_csv_default-8a5b37d9a34ac794_0.0.0_9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52.lock]
+[2024-08-18 02:28:37,143: DEBUG: _api: Attempting to acquire lock 3014653528576 on C:\Users\Naruto\.cache\huggingface\datasets\csv\default-8a5b37d9a34ac794\0.0.0\9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52_builder.lock]
+[2024-08-18 02:28:37,144: DEBUG: _api: Lock 3014653528576 acquired on C:\Users\Naruto\.cache\huggingface\datasets\csv\default-8a5b37d9a34ac794\0.0.0\9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52_builder.lock]
+[2024-08-18 02:28:37,145: DEBUG: local: open file: C:/Users/Naruto/.cache/huggingface/datasets/csv/default-8a5b37d9a34ac794/0.0.0/9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52/dataset_info.json]
+[2024-08-18 02:28:37,146: DEBUG: _api: Attempting to release lock 3014653528576 on C:\Users\Naruto\.cache\huggingface\datasets\csv\default-8a5b37d9a34ac794\0.0.0\9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52_builder.lock]
+[2024-08-18 02:28:37,147: DEBUG: _api: Lock 3014653528576 released on C:\Users\Naruto\.cache\huggingface\datasets\csv\default-8a5b37d9a34ac794\0.0.0\9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52_builder.lock]
+[2024-08-18 02:28:37,200: DEBUG: local: open file: C:/Users/Naruto/.cache/huggingface/datasets/csv/default-8a5b37d9a34ac794/0.0.0/9ea1179385ff7ad1e756d327ffccaa3b801175702a2d91528226ba2c66873f52/tmps4xo8cek]

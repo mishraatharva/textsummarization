@@ -1,13 +1,13 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from textSummarizer.custom_logging import logger
+from textSummarizer.logging import logger
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
 
-# import logger
+
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
@@ -23,7 +23,6 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     Returns:
         ConfigBox: ConfigBox type
     """
-
     try:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
